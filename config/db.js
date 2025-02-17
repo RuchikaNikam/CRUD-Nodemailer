@@ -1,3 +1,5 @@
+// Purpose: Connect to MongoDB using Mongoose
+
 const mongoose = require('mongoose');
 require('dotenv').config();
 

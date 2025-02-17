@@ -1,3 +1,5 @@
+// Purpose: Define the User model schema for the MongoDB database.
+
 const mongoose = require('mongoose');
 
 const UserSchema = new mongoose.Schema({

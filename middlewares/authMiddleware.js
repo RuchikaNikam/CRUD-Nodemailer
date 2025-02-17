@@ -1,3 +1,5 @@
+// Description: Middleware to verify the token and check if the user is authenticated.
+
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 

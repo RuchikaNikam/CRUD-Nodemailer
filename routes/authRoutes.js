@@ -1,3 +1,5 @@
+// Desc: Routes for authentication
+
 const express = require('express');
 const { register, verifyEmail, login, getUsers, deleteUser } = require('../controllers/authController');
 const authMiddleware = require('../middlewares/authMiddleware');
